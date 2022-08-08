@@ -1,0 +1,266 @@
+
+#header{
+
+    background: url("../images/header.webp")fixed;
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+.overlay{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    background:  #0000004a;;
+
+}
+.navbar-brand{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.nav-item{
+    padding: 0px 0.7rem;
+}
+.dropdown-menu{
+    border-top: 3px solid #0d6efd;
+    left: 16px !important;
+    margin-top: 0.8rem !important;
+    min-width: 200px;
+}
+.dropdown-item{
+    font-weight: lighter;
+
+}
+.offcanvas{
+    max-width: 300px;
+}
+.header-content{
+    /* background-color: #ccc; */
+    height: 100%;
+}
+.container-flex{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+.header-content-flex{
+    color: #fff;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.form-search{
+    color: #000;
+    background-color: #ffffffa1;
+    padding: 20px;
+    display: block;
+    width: 100%;
+}
+
+#Futured{
+    min-height: 25vh;
+
+}
+.bg-badge-light{
+    background: #e9ecef; 
+    color: #000;
+    padding:10px 20px;
+    border-radius: 30px;
+    font-weight: normal;
+
+}
+.hover-blue{
+    color:  #0d6efd;
+}
+.hover-blue:hover{
+    color:  #fff;
+
+}
+.size-16px{
+    font-size: 16px !important;
+    font-weight: normal;
+}
+.rate-star-defualt{
+    margin: 0;
+    padding: 0;
+}
+.rates{
+    position: relative;
+    width: fit-content;
+
+}
+.rate-star-defualt li{
+display: inline;
+color: #ccc;
+}
+.rate-star-value{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.rate-star-value li{
+display: inline;
+color: #f89d13;
+}
+.owl-nav{
+    text-align: center;
+    font-size: 35px;
+}
+.owl-nav button{
+    margin:5px 20px;
+}
+.card{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+
+}
+.zoom{
+    transition: 3s;
+
+}
+.zoom:hover{
+transform: scale(1.2);
+}
+.title{
+    position: relative;
+    padding-bottom:20px ;
+}
+.title::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    height: 3px;
+    background: #0d6efd;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+.hover-popular{
+    padding: 40px;
+    transition: 0.5s;
+
+}
+.hover-popular:hover{
+    transform: scale(1.1);
+    background: #0d6efd;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px #0d6efd;
+}
+.hover-popular:hover i{
+    color: #fff !important;
+
+}
+.hover-popular:hover a{
+    color: #fff;
+}
+.Trending{
+
+}
+.title-section{
+    position: relative;
+    padding-bottom:20px ;
+}
+
+.title-section::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    height: 3px;
+    background: #0d6efd;
+    left: 0;
+    right: 0;
+}
+.testimonail-item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+.carousel-indicators {
+    margin-bottom:  -1rem ;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+
+.placehoder-white::placeholder {
+color: #fff;
+}
+.bg-footer{
+    background: #333333;
+}
+#Footer{
+}
+.h-80vh{
+    height: 80vh !important;
+}
+
+@media  (max-width:960px) {
+    #ADS .row{
+        flex-direction: column-reverse;
+    }
+    #ADS .filter{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #ccc;
+    }
+}
+#About .card{
+    white-space: normal !important;
+}
+
+#ADS .carousel-indicators [data-bs-target]{
+    background-color: #000;
+}
+#ADS .slideShow{
+    position: relative;
+    top: -100px;
+}
+
+#ADS .slideShow .carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+    padding: 24px;
+    background-size: 60%;
+    background-position: 60%;
+}
+#ADS .slideShow .carousel-control-prev-icon {
+    background-color: #000;
+    border-radius: 50%;
+    padding: 24px;
+    background-size: 60%;
+    background-position: 60%;
+}
+
+#ADS .slideShow .carousel-indicators {
+   
+    bottom: -14px;
+}
